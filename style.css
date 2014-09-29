@@ -2,7 +2,7 @@
 Theme Name: luzdeluna
 Theme URI: http://www.luzdeluna.com
 Author: Nacho Jacquot
-Author URI: http://www.nachojacquot.com
+Author URI: http://nachojacquot.com
 Description: Wordpress theme based on Bootstrap
 Version: 1.0
 License: GNU General Public License v2 or later
@@ -17,6 +17,11 @@ body {
   padding-bottom: 20px;
 }
 
+h1, h2, h3, h4 {
+	font-family: 'Montserrat', sans-serif; 
+	font-weight: 400;
+	color: #04183D;
+}
 .admin-bar .navbar-fixed-top {
 	margin-top: 30px;
 }
@@ -149,3 +154,57 @@ article.post {
   }
 }
 
+.textwidget .btn {
+	background-color: #04183D;
+	border-color: #000;
+}
+.textwidget .btn:hover {
+	background-color: #222222;
+	border-color: #04183D;
+}
+
+/*
+ * Navbar
+ * --------------------------------------------------
+ */
+
+/* navbar */
+.navbar-inverse, .sub-menu {
+    background-color: #04183D;
+}
+.navbar-inverse {
+	border-bottom: 2px solid #000;
+}
+/* title */
+.navbar-inverse .navbar-brand {
+    color: #56CBFF;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #FFF;
+}
+/* link */
+.navbar-inverse .navbar-nav>li>a, .sub-menu>li>a {
+    color: #56CBFF;
+}
+
+/*
+ * Jumbo
+ * --------------------------------------------------
+ */
+
+ .jumbobg {
+	background: url(images/jumbo01.jpg) no-repeat center center;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  height: 350px;
+  color: white;
+  text-shadow: black 0.1em 0.1em 0.1em;
+}
+
+/*
+ * Media Queries
+ * --------------------------------------------------
+ */
